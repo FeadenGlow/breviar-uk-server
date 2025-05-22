@@ -1,11 +1,13 @@
-from flask import Flask, request, send_from_directory
+import os
+from flask import Flask
+
 app = Flask(__name__)
 
-@app.route("/cgi-bin/l.cgi")
-def liturgical():
-    day = request.args.get("d", "test")
-    return send_from_directory("data", f"{day}.xml", mimetype="application/xml")
-
 @app.route("/")
-def index():
-    return "Breviar server is running!"
+def hello():
+    return "Сервер Breviár працює!"
+
+if __name__ == "__main__":
+    port = int(os.environ.get("PORT", 5000))
+    app.run(host="0.0.0.0", port=port)
+
