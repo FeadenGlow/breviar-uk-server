@@ -1,0 +1,13 @@
+<LHData>
+  <CalendarDay>
+    <DateISO>2025-05-22</DateISO>
+    <Celebration>
+      <StringTitle>
+        <span>Св. Рита з Кашії</span>
+        <span>пам'ятка</span>
+      </StringTitle>
+      <LiturgicalCelebrationColor Id="3"/>
+      <Id>sv_rita</Id>
+    </Celebration>
+  </CalendarDay>
+</LHData>
