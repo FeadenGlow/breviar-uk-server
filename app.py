@@ -1,93 +1,80 @@
-from flask import Flask, request, Response
+# app.py
 import os
-from datetime import datetime
-from bs4 import BeautifulSoup
+from flask import Flask, request, send_from_directory, abort, Response
+import xml.etree.ElementTree as ET
+from datetime import date, datetime
 
 app = Flask(__name__)
 
-BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-PRAYERS_DIR = os.path.join(BASE_DIR, "prayers")
-GENERATED_DIR = os.path.join(BASE_DIR, "generated")
+# Шлях до статичних HTM-файлів (твої файли)
+HTM_DIR = os.path.join(app.root_path, 'static', 'htm')
+# Шлях до XML-шаблону (взятий із l.cgi.xml, але спрощений)
+XML_TEMPLATE = os.path.join(app.root_path, 'data', 'xml', 'template.xml')
 
-@app.route("/cgi-bin/l.cgi")
-def handle_cgi():
-    qt = request.args.get("qt")
-    d = request.args.get("d")
-    m = request.args.get("m")
-    r = request.args.get("r")
-    j = request.args.get("j")  # мова (uk)
-    k = request.args.get("k")  # календар (uk)
-
-    print(f"[DEBUG] Incoming /cgi-bin/l.cgi?qt={qt}&d={d}&m={m}&r={r}&j={j}&k={k}")
-
-    if qt != "pxml" or not all([d, m, r, j, k]):
-        return Response("Bad request", status=400)
-
+@app.route('/cgi-bin/l.cgi')
+def l_cgi():
+    # --- 1. Парсинг базових параметрів ---
     try:
-        day = int(d)
-        month = int(m)
-        year = int(r)
-        date_str = f"{year}-{month:02}-{day:02}"
+        day   = int(request.args.get('d'))
+        month = int(request.args.get('m'))
+        year  = int(request.args.get('r'))
+        lang  = request.args.get('j', 'uk')   # мова
+        cal   = request.args.get('k', 'uk')   # календар
+        qt    = request.args.get('qt', '')    # тип відповіді
+    except (TypeError, ValueError):
+        return abort(400, 'Invalid date parameters')
+
+    # Перевірка дати
+    try:
+        dt = date(year, month, day)
     except ValueError:
-        return Response("Invalid date", status=400)
+        return abort(400, 'Impossible date')
 
-    xml_path = ensure_xml_exists(year, month, day)
-    if not os.path.exists(xml_path):
-        return Response("Prayer text not found", status=404)
+    if qt == 'pxml':
+        # --- 2. Генерація XML ---
+        if not os.path.exists(XML_TEMPLATE):
+            return abort(500, 'XML template not found')
+        tree = ET.parse(XML_TEMPLATE)
+        root = tree.getroot()
 
-    with open(xml_path, encoding="utf-8") as f:
-        return Response(f.read(), mimetype="text/xml")
+        # Замінюємо поля дати:
+        cd = root.find('CalendarDay')
+        cd.find('DateISO').text   = dt.isoformat()
+        cd.find('DateDay').text   = str(dt.day)
+        cd.find('DateMonth').text = str(dt.month)
+        cd.find('DateYear').text  = str(dt.year)
+        cd.find('DayOfYear').text = str(dt.timetuple().tm_yday)
+        # DayOfWeek: українською
+        weekdays = ['понеділок','вівторок','середа','четвер','п’ятниця','субота','неділя']
+        cd.find('DayOfWeek').text = weekdays[dt.weekday()]
 
+        # Змінимо атрибути Celebration → наприклад, літургійний тиждень
+        celeb = cd.find('Celebration')
+        # простий приклад: тиждень у році
+        weeknum = dt.isocalendar()[1]
+        celeb.find('LiturgicalWeek').text = str(weeknum)
 
-def ensure_xml_exists(year: int, month: int, day: int) -> str:
-    target_dir = os.path.join(GENERATED_DIR, str(year), f"{month:02}")
-    os.makedirs(target_dir, exist_ok=True)
+        # Повернути
+        xml_bytes = ET.tostring(root, encoding='utf-8')
+        return Response(xml_bytes, mimetype='application/xml')
 
-    xml_file = os.path.join(target_dir, f"{day:02}.xml")
-    if os.path.exists(xml_file):
-        return xml_file
+    elif qt in ('htm', 'pdt'):
+        # --- 3. Віддаємо потрібний HTM-файл ---
+        # Очікуємо, що клієнт передає ім’я файлу:
+        fname = request.args.get('file')
+        if not fname:
+            return abort(400, 'Missing file parameter')
+        # Безпечна перевірка шляху:
+        if '..' in fname or fname.startswith('/'):
+            return abort(400, 'Invalid file name')
+        fullpath = os.path.join(HTM_DIR, fname)
+        if not os.path.isfile(fullpath):
+            return abort(404, f'{fname} not found')
+        return send_from_directory(HTM_DIR, fname, mimetype='text/html')
 
-    html_filename = f"{day:02}cezrok_pc.htm"
-    html_path = os.path.join(PRAYERS_DIR, html_filename)
-    print(f"Looking for file: {html_path}")
-    if not os.path.exists(html_path):
-        return xml_file  # порожній, але уникнемо помилки
+    else:
+        return abort(400, 'Unsupported qt value')
 
-    with open(html_path, encoding="utf-8") as f:
-        html = f.read()
-
-    xml = generate_xml_from_html(html, f"{year}-{month:02}-{day:02}")
-
-    with open(xml_file, "w", encoding="utf-8") as f:
-        f.write(xml)
-
-    return xml_file
-
-
-def generate_xml_from_html(html: str, date_iso: str) -> str:
-    soup = BeautifulSoup(html, "html.parser")
-    body = soup.body or soup
-    text = body.get_text(separator="\n", strip=True)
-
-    return f"""<?xml version="1.0" encoding="UTF-8"?>
-<LHData>
-  <CalendarDay>
-    <DateISO>{date_iso}</DateISO>
-    <Celebration>
-      <Id>uk_custom</Id>
-      <StringTitle><span>{text[:50]}</span></StringTitle>
-      <LiturgicalCelebrationColor Id="2" />
-    </Celebration>
-  </CalendarDay>
-</LHData>
-"""
-
-
-@app.route("/")
-def home():
-    return "Breviar UK Server is running."
-
-
-if __name__ == "__main__":
-    port = int(os.environ.get("PORT", 5000))
-    app.run(host="0.0.0.0", port=port)
+if __name__ == '__main__':
+    # Для продакшену заміни на WSGI-сервер (gunicorn)
+    app.run(host='0.0.0.0', port=5000, debug=True)
