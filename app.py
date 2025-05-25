@@ -18,6 +18,8 @@ def handle_cgi():
     j = request.args.get("j")  # мова (uk)
     k = request.args.get("k")  # календар (uk)
 
+    print(f"[DEBUG] Incoming /cgi-bin/l.cgi?qt={qt}&d={d}&m={m}&r={r}&j={j}&k={k}")
+
     if qt != "pxml" or not all([d, m, r, j, k]):
         return Response("Bad request", status=400)
 
