@@ -47,6 +47,7 @@ def ensure_xml_exists(year: int, month: int, day: int) -> str:
 
     html_filename = f"{day:02}cezrok_pc.htm"
     html_path = os.path.join(PRAYERS_DIR, html_filename)
+    print(f"Looking for file: {html_path}")
     if not os.path.exists(html_path):
         return xml_file  # порожній, але уникнемо помилки
 
