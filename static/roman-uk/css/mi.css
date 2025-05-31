@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+    margin: 2em;
+  }
+  
+  .inv {
+    font-weight: bold;
+    margin-bottom: 1em;
+  }
+  
+  .ant {
+    font-style: italic;
+    margin-bottom: 1em;
+  }
+  
+  /* Заголовки (назви псалмів) червоного кольору */
+  .psalm {
+    margin-top: 1.5em;
+    margin-bottom: 0.5em;
+    font-weight: bold;
+    color: red;
+  }
+  
+  .verse {
+    margin-left: 1em;
+    margin-bottom: 0.5em;
+  }
+  
+  /* Повторення антифону червоного кольору */
+  .repeat-ant {
+    display: block;
+    margin-left: 1em;
+    font-style: italic;
+    margin-bottom: 1em;
+    color: red;
+  }
+  
+  
