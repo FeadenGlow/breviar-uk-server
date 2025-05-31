@@ -39,10 +39,10 @@ def lcgi():
 
     # 3) Prayer XML (pdt) — різні види молитов
     if qt == 'pdt' and p and d and m and r:
-        # static/roman-uk/xml/pdt/mi/2025_05_28.xml  (якщо p='mi')
-        filename = f"{r}_{int(m):02d}_{int(d):02d}.xml"
-        subdir = os.path.join(XML_DIR, 'pdt', p)
-        return _send_xml(subdir, filename)
+        # static/roman-uk/htm/pdt/mi/2025_05_28.htm  (якщо p='mi')
+        filename = f"{r}_{int(m):02d}_{int(d):02d}.htm"
+        subdir = os.path.join(HTML_DIR, 'pdt', p)
+        return _send_html(subdir, filename)
 
     # 4) Prayer XML короткі молитви (mpc, mpred, mna, mrch тощо)
     # Код p вже містить потрібний префікс, тому він теж потрапить у гілку 3.
