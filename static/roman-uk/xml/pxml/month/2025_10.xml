@@ -45,6 +45,17 @@
     <DateYear>2025</DateYear>
     <DayOfYear>276</DayOfYear>
     <DayOfWeek Id="4">п’ятниця</DayOfWeek>
+    <Celebration>
+      <Id>0</Id>
+      <StringTitle>
+        <span class="bold">
+          <span class="uppercase">Звичайний день</span>
+        </span>
+      </StringTitle>
+      <LiturgicalSeason>Звичайний період</LiturgicalSeason>
+      <LiturgicalCelebrationLevel>5</LiturgicalCelebrationLevel>
+      <LiturgicalCelebrationType>звичайний</LiturgicalCelebrationType>
+    </Celebration>
   </CalendarDay>
   <CalendarDay>
     <DateISO>2025-10-04</DateISO>
@@ -72,6 +83,17 @@
     <DateYear>2025</DateYear>
     <DayOfYear>278</DayOfYear>
     <DayOfWeek Id="6">неділя</DayOfWeek>
+    <Celebration>
+      <Id>0</Id>
+      <StringTitle>
+        <span class="bold">
+          <span class="uppercase">Звичайний день</span>
+        </span>
+      </StringTitle>
+      <LiturgicalSeason>Звичайний період</LiturgicalSeason>
+      <LiturgicalCelebrationLevel>5</LiturgicalCelebrationLevel>
+      <LiturgicalCelebrationType>звичайний</LiturgicalCelebrationType>
+    </Celebration>
   </CalendarDay>
   <CalendarDay>
     <DateISO>2025-10-06</DateISO>
@@ -118,6 +140,17 @@
     <DateYear>2025</DateYear>
     <DayOfYear>281</DayOfYear>
     <DayOfWeek Id="2">середа</DayOfWeek>
+    <Celebration>
+      <Id>0</Id>
+      <StringTitle>
+        <span class="bold">
+          <span class="uppercase">Звичайний день</span>
+        </span>
+      </StringTitle>
+      <LiturgicalSeason>Звичайний період</LiturgicalSeason>
+      <LiturgicalCelebrationLevel>5</LiturgicalCelebrationLevel>
+      <LiturgicalCelebrationType>звичайний</LiturgicalCelebrationType>
+    </Celebration>
   </CalendarDay>
   <CalendarDay>
     <DateISO>2025-10-09</DateISO>
@@ -156,6 +189,17 @@
     <DateYear>2025</DateYear>
     <DayOfYear>283</DayOfYear>
     <DayOfWeek Id="4">п’ятниця</DayOfWeek>
+    <Celebration>
+      <Id>0</Id>
+      <StringTitle>
+        <span class="bold">
+          <span class="uppercase">Звичайний день</span>
+        </span>
+      </StringTitle>
+      <LiturgicalSeason>Звичайний період</LiturgicalSeason>
+      <LiturgicalCelebrationLevel>5</LiturgicalCelebrationLevel>
+      <LiturgicalCelebrationType>звичайний</LiturgicalCelebrationType>
+    </Celebration>
   </CalendarDay>
   <CalendarDay>
     <DateISO>2025-10-11</DateISO>
@@ -164,6 +208,17 @@
     <DateYear>2025</DateYear>
     <DayOfYear>284</DayOfYear>
     <DayOfWeek Id="5">субота</DayOfWeek>
+    <Celebration>
+      <Id>0</Id>
+      <StringTitle>
+        <span class="bold">
+          <span class="uppercase">Звичайний день</span>
+        </span>
+      </StringTitle>
+      <LiturgicalSeason>Звичайний період</LiturgicalSeason>
+      <LiturgicalCelebrationLevel>5</LiturgicalCelebrationLevel>
+      <LiturgicalCelebrationType>звичайний</LiturgicalCelebrationType>
+    </Celebration>
   </CalendarDay>
   <CalendarDay>
     <DateISO>2025-10-12</DateISO>
@@ -172,6 +227,17 @@
     <DateYear>2025</DateYear>
     <DayOfYear>285</DayOfYear>
     <DayOfWeek Id="6">неділя</DayOfWeek>
+    <Celebration>
+      <Id>0</Id>
+      <StringTitle>
+        <span class="bold">
+          <span class="uppercase">Звичайний день</span>
+        </span>
+      </StringTitle>
+      <LiturgicalSeason>Звичайний період</LiturgicalSeason>
+      <LiturgicalCelebrationLevel>5</LiturgicalCelebrationLevel>
+      <LiturgicalCelebrationType>звичайний</LiturgicalCelebrationType>
+    </Celebration>
   </CalendarDay>
   <CalendarDay>
     <DateISO>2025-10-13</DateISO>
@@ -180,6 +246,17 @@
     <DateYear>2025</DateYear>
     <DayOfYear>286</DayOfYear>
     <DayOfWeek Id="0">понеділок</DayOfWeek>
+    <Celebration>
+      <Id>0</Id>
+      <StringTitle>
+        <span class="bold">
+          <span class="uppercase">Звичайний день</span>
+        </span>
+      </StringTitle>
+      <LiturgicalSeason>Звичайний період</LiturgicalSeason>
+      <LiturgicalCelebrationLevel>5</LiturgicalCelebrationLevel>
+      <LiturgicalCelebrationType>звичайний</LiturgicalCelebrationType>
+    </Celebration>
   </CalendarDay>
   <CalendarDay>
     <DateISO>2025-10-14</DateISO>
@@ -324,6 +401,17 @@
     <DateYear>2025</DateYear>
     <DayOfYear>293</DayOfYear>
     <DayOfWeek Id="0">понеділок</DayOfWeek>
+    <Celebration>
+      <Id>0</Id>
+      <StringTitle>
+        <span class="bold">
+          <span class="uppercase">Звичайний день</span>
+        </span>
+      </StringTitle>
+      <LiturgicalSeason>Звичайний період</LiturgicalSeason>
+      <LiturgicalCelebrationLevel>5</LiturgicalCelebrationLevel>
+      <LiturgicalCelebrationType>звичайний</LiturgicalCelebrationType>
+    </Celebration>
   </CalendarDay>
   <CalendarDay>
     <DateISO>2025-10-21</DateISO>
@@ -332,6 +420,17 @@
     <DateYear>2025</DateYear>
     <DayOfYear>294</DayOfYear>
     <DayOfWeek Id="1">вівторок</DayOfWeek>
+    <Celebration>
+      <Id>0</Id>
+      <StringTitle>
+        <span class="bold">
+          <span class="uppercase">Звичайний день</span>
+        </span>
+      </StringTitle>
+      <LiturgicalSeason>Звичайний період</LiturgicalSeason>
+      <LiturgicalCelebrationLevel>5</LiturgicalCelebrationLevel>
+      <LiturgicalCelebrationType>звичайний</LiturgicalCelebrationType>
+    </Celebration>
   </CalendarDay>
   <CalendarDay>
     <DateISO>2025-10-22</DateISO>
@@ -397,6 +496,17 @@
     <DateYear>2025</DateYear>
     <DayOfYear>298</DayOfYear>
     <DayOfWeek Id="5">субота</DayOfWeek>
+    <Celebration>
+      <Id>0</Id>
+      <StringTitle>
+        <span class="bold">
+          <span class="uppercase">Звичайний день</span>
+        </span>
+      </StringTitle>
+      <LiturgicalSeason>Звичайний період</LiturgicalSeason>
+      <LiturgicalCelebrationLevel>5</LiturgicalCelebrationLevel>
+      <LiturgicalCelebrationType>звичайний</LiturgicalCelebrationType>
+    </Celebration>
   </CalendarDay>
   <CalendarDay>
     <DateISO>2025-10-26</DateISO>
@@ -405,6 +515,17 @@
     <DateYear>2025</DateYear>
     <DayOfYear>299</DayOfYear>
     <DayOfWeek Id="6">неділя</DayOfWeek>
+    <Celebration>
+      <Id>0</Id>
+      <StringTitle>
+        <span class="bold">
+          <span class="uppercase">Звичайний день</span>
+        </span>
+      </StringTitle>
+      <LiturgicalSeason>Звичайний період</LiturgicalSeason>
+      <LiturgicalCelebrationLevel>5</LiturgicalCelebrationLevel>
+      <LiturgicalCelebrationType>звичайний</LiturgicalCelebrationType>
+    </Celebration>
   </CalendarDay>
   <CalendarDay>
     <DateISO>2025-10-27</DateISO>
@@ -413,6 +534,17 @@
     <DateYear>2025</DateYear>
     <DayOfYear>300</DayOfYear>
     <DayOfWeek Id="0">понеділок</DayOfWeek>
+    <Celebration>
+      <Id>0</Id>
+      <StringTitle>
+        <span class="bold">
+          <span class="uppercase">Звичайний день</span>
+        </span>
+      </StringTitle>
+      <LiturgicalSeason>Звичайний період</LiturgicalSeason>
+      <LiturgicalCelebrationLevel>5</LiturgicalCelebrationLevel>
+      <LiturgicalCelebrationType>звичайний</LiturgicalCelebrationType>
+    </Celebration>
   </CalendarDay>
   <CalendarDay>
     <DateISO>2025-10-28</DateISO>
@@ -440,6 +572,17 @@
     <DateYear>2025</DateYear>
     <DayOfYear>302</DayOfYear>
     <DayOfWeek Id="2">середа</DayOfWeek>
+    <Celebration>
+      <Id>0</Id>
+      <StringTitle>
+        <span class="bold">
+          <span class="uppercase">Звичайний день</span>
+        </span>
+      </StringTitle>
+      <LiturgicalSeason>Звичайний період</LiturgicalSeason>
+      <LiturgicalCelebrationLevel>5</LiturgicalCelebrationLevel>
+      <LiturgicalCelebrationType>звичайний</LiturgicalCelebrationType>
+    </Celebration>
   </CalendarDay>
   <CalendarDay>
     <DateISO>2025-10-30</DateISO>
@@ -448,6 +591,17 @@
     <DateYear>2025</DateYear>
     <DayOfYear>303</DayOfYear>
     <DayOfWeek Id="3">четвер</DayOfWeek>
+    <Celebration>
+      <Id>0</Id>
+      <StringTitle>
+        <span class="bold">
+          <span class="uppercase">Звичайний день</span>
+        </span>
+      </StringTitle>
+      <LiturgicalSeason>Звичайний період</LiturgicalSeason>
+      <LiturgicalCelebrationLevel>5</LiturgicalCelebrationLevel>
+      <LiturgicalCelebrationType>звичайний</LiturgicalCelebrationType>
+    </Celebration>
   </CalendarDay>
   <CalendarDay>
     <DateISO>2025-10-31</DateISO>
@@ -456,5 +610,16 @@
     <DateYear>2025</DateYear>
     <DayOfYear>304</DayOfYear>
     <DayOfWeek Id="4">п’ятниця</DayOfWeek>
+    <Celebration>
+      <Id>0</Id>
+      <StringTitle>
+        <span class="bold">
+          <span class="uppercase">Звичайний день</span>
+        </span>
+      </StringTitle>
+      <LiturgicalSeason>Звичайний період</LiturgicalSeason>
+      <LiturgicalCelebrationLevel>5</LiturgicalCelebrationLevel>
+      <LiturgicalCelebrationType>звичайний</LiturgicalCelebrationType>
+    </Celebration>
   </CalendarDay>
 </LHData>

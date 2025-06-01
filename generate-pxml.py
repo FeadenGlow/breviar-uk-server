@@ -1932,19 +1932,24 @@ def make_day_xml(date_obj: datetime.date, celebrations: list) -> ET.Element:
 def make_month_xml(year: int, month: int, month_days: dict) -> ET.Element:
     """
     Створює місячний XML, що містить усі <CalendarDay> для даного року+місяця,
-    в тому числі ті, які не мають свят (але без <Celebration>).
+    у тому числі ті, які не мають свят (у цьому випадку додається один <Celebration>
+    з «Звичайний день»).
     month_days: словник { "YYYY-MM-DD": [ список свят ] } для цього місяця.
     """
     root = ET.Element("LHData")
 
-    # Ітерація по днях у місяці
+    # Кількість днів у місяці
     first = datetime.date(year, month, 1)
-    # визначаємо кількість днів у місяці (перехід на наступний місяць мінус 1 день)
     if month == 12:
         next_month = datetime.date(year + 1, 1, 1)
     else:
         next_month = datetime.date(year, month + 1, 1)
     delta = (next_month - first).days
+
+    WEEKDAYS_UA = [
+        "понеділок", "вівторок", "середа", 
+        "четвер", "п’ятниця", "субота", "неділя"
+    ]
 
     for day_offset in range(delta):
         current = first + datetime.timedelta(days=day_offset)
@@ -1958,13 +1963,24 @@ def make_month_xml(year: int, month: int, month_days: dict) -> ET.Element:
         ET.SubElement(cal, "DateYear").text = str(current.year)
         ET.SubElement(cal, "DayOfYear").text = str(current.timetuple().tm_yday)
 
-        WEEKDAYS_UA = ["понеділок", "вівторок", "середа", "четвер", "п’ятниця", "субота", "неділя"]
         weekday_ua = WEEKDAYS_UA[current.weekday()]
         dow = ET.SubElement(cal, "DayOfWeek", Id=str(current.weekday()))
         dow.text = weekday_ua
 
-        # Додаємо свята (якщо є)
-        for idx, item in enumerate(month_days.get(iso, [])):
+        # Отримуємо список свят за цим iso; якщо його нема - беремо пустий список
+        todays = month_days.get(iso, [])
+
+        # Якщо жодного свята, додаємо один запис «Звичайний день»
+        if not todays:
+            todays = [{
+                "title": "Звичайний день",
+                "season": "Звичайний період",
+                "level": 5,           # довільний код рівня (приклад)
+                "type": "звичайний"
+            }]
+
+        # Додаємо усі записи в <Celebration>
+        for idx, item in enumerate(todays):
             c = ET.SubElement(cal, "Celebration")
             ET.SubElement(c, "Id").text = str(idx)
             st = ET.SubElement(c, "StringTitle")
@@ -1976,6 +1992,7 @@ def make_month_xml(year: int, month: int, month_days: dict) -> ET.Element:
             ET.SubElement(c, "LiturgicalCelebrationType").text = item["type"]
 
     return root
+
 
 
 # —————————————————————————————————————————————————————————————————————————————
