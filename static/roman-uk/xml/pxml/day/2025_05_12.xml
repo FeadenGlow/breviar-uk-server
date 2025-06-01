@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LHData>
+  <CalendarDay>
+    <DateISO>2025-05-12</DateISO>
+    <DateDay>12</DateDay>
+    <DateMonth>5</DateMonth>
+    <DateYear>2025</DateYear>
+    <DayOfYear>132</DayOfYear>
+    <DayOfWeek Id="0">понеділок</DayOfWeek>
+    <Celebration>
+      <Id>0</Id>
+      <StringTitle>
+        <span class="bold">
+          <span class="uppercase">Свв. Нерея і Ахілла, мученики</span>
+        </span>
+      </StringTitle>
+      <LiturgicalSeason>Великодній період</LiturgicalSeason>
+      <LiturgicalCelebrationLevel>2</LiturgicalCelebrationLevel>
+      <LiturgicalCelebrationType>спомин</LiturgicalCelebrationType>
+    </Celebration>
+    <Celebration>
+      <Id>1</Id>
+      <StringTitle>
+        <span class="bold">
+          <span class="uppercase">Св. Панкратія, мученика</span>
+        </span>
+      </StringTitle>
+      <LiturgicalSeason>Великодній період</LiturgicalSeason>
+      <LiturgicalCelebrationLevel>2</LiturgicalCelebrationLevel>
+      <LiturgicalCelebrationType>спомин</LiturgicalCelebrationType>
+    </Celebration>
+  </CalendarDay>
+</LHData>

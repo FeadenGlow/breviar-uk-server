@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LHData>
+  <CalendarDay>
+    <DateISO>2025-05-21</DateISO>
+    <DateDay>21</DateDay>
+    <DateMonth>5</DateMonth>
+    <DateYear>2025</DateYear>
+    <DayOfYear>141</DayOfYear>
+    <DayOfWeek Id="2">середа</DayOfWeek>
+    <Celebration>
+      <Id>0</Id>
+      <StringTitle>
+        <span class="bold">
+          <span class="uppercase">Св. Христофора Магалланес, пресвітера, і сподвижників, мучеників</span>
+        </span>
+      </StringTitle>
+      <LiturgicalSeason>Звичайний період</LiturgicalSeason>
+      <LiturgicalCelebrationLevel>2</LiturgicalCelebrationLevel>
+      <LiturgicalCelebrationType>спомин</LiturgicalCelebrationType>
+    </Celebration>
+    <Celebration>
+      <Id>1</Id>
+      <StringTitle>
+        <span class="bold">
+          <span class="uppercase">Св. Йоана з Непомук, пресвітера і мученика</span>
+        </span>
+      </StringTitle>
+      <LiturgicalSeason>Звичайний період</LiturgicalSeason>
+      <LiturgicalCelebrationLevel>2</LiturgicalCelebrationLevel>
+      <LiturgicalCelebrationType>спомин</LiturgicalCelebrationType>
+    </Celebration>
+  </CalendarDay>
+</LHData>

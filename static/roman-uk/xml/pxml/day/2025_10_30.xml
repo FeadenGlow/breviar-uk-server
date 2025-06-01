@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LHData>
+  <CalendarDay>
+    <DateISO>2025-10-30</DateISO>
+    <DateDay>30</DateDay>
+    <DateMonth>10</DateMonth>
+    <DateYear>2025</DateYear>
+    <DayOfYear>303</DayOfYear>
+    <DayOfWeek Id="3">четвер</DayOfWeek>
+  </CalendarDay>
+</LHData>

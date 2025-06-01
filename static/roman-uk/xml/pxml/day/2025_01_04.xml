@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LHData>
+  <CalendarDay>
+    <DateISO>2025-01-04</DateISO>
+    <DateDay>4</DateDay>
+    <DateMonth>1</DateMonth>
+    <DateYear>2025</DateYear>
+    <DayOfYear>4</DayOfYear>
+    <DayOfWeek Id="5">субота</DayOfWeek>
+  </CalendarDay>
+</LHData>

@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LHData>
+  <CalendarDay>
+    <DateISO>2025-06-21</DateISO>
+    <DateDay>21</DateDay>
+    <DateMonth>6</DateMonth>
+    <DateYear>2025</DateYear>
+    <DayOfYear>172</DayOfYear>
+    <DayOfWeek Id="5">субота</DayOfWeek>
+    <Celebration>
+      <Id>0</Id>
+      <StringTitle>
+        <span class="bold">
+          <span class="uppercase">Св. Алойзія Гонзаги, монаха</span>
+        </span>
+      </StringTitle>
+      <LiturgicalSeason>Звичайний період</LiturgicalSeason>
+      <LiturgicalCelebrationLevel>3</LiturgicalCelebrationLevel>
+      <LiturgicalCelebrationType>спомин</LiturgicalCelebrationType>
+    </Celebration>
+  </CalendarDay>
+</LHData>

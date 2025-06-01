@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LHData>
+  <CalendarDay>
+    <DateISO>2025-09-26</DateISO>
+    <DateDay>26</DateDay>
+    <DateMonth>9</DateMonth>
+    <DateYear>2025</DateYear>
+    <DayOfYear>269</DayOfYear>
+    <DayOfWeek Id="4">п’ятниця</DayOfWeek>
+    <Celebration>
+      <Id>0</Id>
+      <StringTitle>
+        <span class="bold">
+          <span class="uppercase">Свв. Косьми і Дам’яна, мучеників</span>
+        </span>
+      </StringTitle>
+      <LiturgicalSeason>Звичайний період</LiturgicalSeason>
+      <LiturgicalCelebrationLevel>4</LiturgicalCelebrationLevel>
+      <LiturgicalCelebrationType>спомин</LiturgicalCelebrationType>
+    </Celebration>
+  </CalendarDay>
+</LHData>

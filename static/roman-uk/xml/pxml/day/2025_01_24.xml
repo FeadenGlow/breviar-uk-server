@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LHData>
+  <CalendarDay>
+    <DateISO>2025-01-24</DateISO>
+    <DateDay>24</DateDay>
+    <DateMonth>1</DateMonth>
+    <DateYear>2025</DateYear>
+    <DayOfYear>24</DayOfYear>
+    <DayOfWeek Id="4">п’ятниця</DayOfWeek>
+    <Celebration>
+      <Id>0</Id>
+      <StringTitle>
+        <span class="bold">
+          <span class="uppercase">Св. Франциска Сальського, єпископа і Вчителя Церкви</span>
+        </span>
+      </StringTitle>
+      <LiturgicalSeason>Звичайний період</LiturgicalSeason>
+      <LiturgicalCelebrationLevel>3</LiturgicalCelebrationLevel>
+      <LiturgicalCelebrationType>спомин</LiturgicalCelebrationType>
+    </Celebration>
+  </CalendarDay>
+</LHData>

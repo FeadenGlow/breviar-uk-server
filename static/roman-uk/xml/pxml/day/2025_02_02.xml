@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LHData>
+  <CalendarDay>
+    <DateISO>2025-02-02</DateISO>
+    <DateDay>2</DateDay>
+    <DateMonth>2</DateMonth>
+    <DateYear>2025</DateYear>
+    <DayOfYear>33</DayOfYear>
+    <DayOfWeek Id="6">неділя</DayOfWeek>
+    <Celebration>
+      <Id>0</Id>
+      <StringTitle>
+        <span class="bold">
+          <span class="uppercase">СТРІТЕННЯ ГОСПОДНЬОГО</span>
+        </span>
+      </StringTitle>
+      <LiturgicalSeason>Звичайний період</LiturgicalSeason>
+      <LiturgicalCelebrationLevel>1</LiturgicalCelebrationLevel>
+      <LiturgicalCelebrationType>свято</LiturgicalCelebrationType>
+    </Celebration>
+  </CalendarDay>
+</LHData>

@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LHData>
+  <CalendarDay>
+    <DateISO>2025-01-21</DateISO>
+    <DateDay>21</DateDay>
+    <DateMonth>1</DateMonth>
+    <DateYear>2025</DateYear>
+    <DayOfYear>21</DayOfYear>
+    <DayOfWeek Id="1">вівторок</DayOfWeek>
+    <Celebration>
+      <Id>0</Id>
+      <StringTitle>
+        <span class="bold">
+          <span class="uppercase">Св. Агнеси, діви і мучениці</span>
+        </span>
+      </StringTitle>
+      <LiturgicalSeason>Звичайний період</LiturgicalSeason>
+      <LiturgicalCelebrationLevel>3</LiturgicalCelebrationLevel>
+      <LiturgicalCelebrationType>спомин</LiturgicalCelebrationType>
+    </Celebration>
+  </CalendarDay>
+</LHData>

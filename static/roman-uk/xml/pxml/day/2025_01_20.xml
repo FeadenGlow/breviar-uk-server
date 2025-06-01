@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LHData>
+  <CalendarDay>
+    <DateISO>2025-01-20</DateISO>
+    <DateDay>20</DateDay>
+    <DateMonth>1</DateMonth>
+    <DateYear>2025</DateYear>
+    <DayOfYear>20</DayOfYear>
+    <DayOfWeek Id="0">понеділок</DayOfWeek>
+    <Celebration>
+      <Id>0</Id>
+      <StringTitle>
+        <span class="bold">
+          <span class="uppercase">Св. Фабіана, Папи і мученика</span>
+        </span>
+      </StringTitle>
+      <LiturgicalSeason>Звичайний період</LiturgicalSeason>
+      <LiturgicalCelebrationLevel>2</LiturgicalCelebrationLevel>
+      <LiturgicalCelebrationType>спомин</LiturgicalCelebrationType>
+    </Celebration>
+    <Celebration>
+      <Id>1</Id>
+      <StringTitle>
+        <span class="bold">
+          <span class="uppercase">Св. Севастіана, мученика</span>
+        </span>
+      </StringTitle>
+      <LiturgicalSeason>Звичайний період</LiturgicalSeason>
+      <LiturgicalCelebrationLevel>2</LiturgicalCelebrationLevel>
+      <LiturgicalCelebrationType>спомин</LiturgicalCelebrationType>
+    </Celebration>
+  </CalendarDay>
+</LHData>

@@ -1,0 +1,350 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LHData>
+  <CalendarDay>
+    <DateISO>2025-03-01</DateISO>
+    <DateDay>1</DateDay>
+    <DateMonth>3</DateMonth>
+    <DateYear>2025</DateYear>
+    <DayOfYear>60</DayOfYear>
+    <DayOfWeek Id="5">субота</DayOfWeek>
+  </CalendarDay>
+  <CalendarDay>
+    <DateISO>2025-03-02</DateISO>
+    <DateDay>2</DateDay>
+    <DateMonth>3</DateMonth>
+    <DateYear>2025</DateYear>
+    <DayOfYear>61</DayOfYear>
+    <DayOfWeek Id="6">неділя</DayOfWeek>
+  </CalendarDay>
+  <CalendarDay>
+    <DateISO>2025-03-03</DateISO>
+    <DateDay>3</DateDay>
+    <DateMonth>3</DateMonth>
+    <DateYear>2025</DateYear>
+    <DayOfYear>62</DayOfYear>
+    <DayOfWeek Id="0">понеділок</DayOfWeek>
+  </CalendarDay>
+  <CalendarDay>
+    <DateISO>2025-03-04</DateISO>
+    <DateDay>4</DateDay>
+    <DateMonth>3</DateMonth>
+    <DateYear>2025</DateYear>
+    <DayOfYear>63</DayOfYear>
+    <DayOfWeek Id="1">вівторок</DayOfWeek>
+    <Celebration>
+      <Id>0</Id>
+      <StringTitle>
+        <span class="bold">
+          <span class="uppercase">Св. Казимира</span>
+        </span>
+      </StringTitle>
+      <LiturgicalSeason>Звичайний період</LiturgicalSeason>
+      <LiturgicalCelebrationLevel>2</LiturgicalCelebrationLevel>
+      <LiturgicalCelebrationType>спомин</LiturgicalCelebrationType>
+    </Celebration>
+  </CalendarDay>
+  <CalendarDay>
+    <DateISO>2025-03-05</DateISO>
+    <DateDay>5</DateDay>
+    <DateMonth>3</DateMonth>
+    <DateYear>2025</DateYear>
+    <DayOfYear>64</DayOfYear>
+    <DayOfWeek Id="2">середа</DayOfWeek>
+  </CalendarDay>
+  <CalendarDay>
+    <DateISO>2025-03-06</DateISO>
+    <DateDay>6</DateDay>
+    <DateMonth>3</DateMonth>
+    <DateYear>2025</DateYear>
+    <DayOfYear>65</DayOfYear>
+    <DayOfWeek Id="3">четвер</DayOfWeek>
+  </CalendarDay>
+  <CalendarDay>
+    <DateISO>2025-03-07</DateISO>
+    <DateDay>7</DateDay>
+    <DateMonth>3</DateMonth>
+    <DateYear>2025</DateYear>
+    <DayOfYear>66</DayOfYear>
+    <DayOfWeek Id="4">п’ятниця</DayOfWeek>
+    <Celebration>
+      <Id>0</Id>
+      <StringTitle>
+        <span class="bold">
+          <span class="uppercase">Свв. Перпетуї та Феліцити, мучениць</span>
+        </span>
+      </StringTitle>
+      <LiturgicalSeason>Звичайний період</LiturgicalSeason>
+      <LiturgicalCelebrationLevel>3</LiturgicalCelebrationLevel>
+      <LiturgicalCelebrationType>спомин</LiturgicalCelebrationType>
+    </Celebration>
+  </CalendarDay>
+  <CalendarDay>
+    <DateISO>2025-03-08</DateISO>
+    <DateDay>8</DateDay>
+    <DateMonth>3</DateMonth>
+    <DateYear>2025</DateYear>
+    <DayOfYear>67</DayOfYear>
+    <DayOfWeek Id="5">субота</DayOfWeek>
+    <Celebration>
+      <Id>0</Id>
+      <StringTitle>
+        <span class="bold">
+          <span class="uppercase">Св. Йоана Божого, монаха</span>
+        </span>
+      </StringTitle>
+      <LiturgicalSeason>Звичайний період</LiturgicalSeason>
+      <LiturgicalCelebrationLevel>2</LiturgicalCelebrationLevel>
+      <LiturgicalCelebrationType>спомин</LiturgicalCelebrationType>
+    </Celebration>
+  </CalendarDay>
+  <CalendarDay>
+    <DateISO>2025-03-09</DateISO>
+    <DateDay>9</DateDay>
+    <DateMonth>3</DateMonth>
+    <DateYear>2025</DateYear>
+    <DayOfYear>68</DayOfYear>
+    <DayOfWeek Id="6">неділя</DayOfWeek>
+    <Celebration>
+      <Id>0</Id>
+      <StringTitle>
+        <span class="bold">
+          <span class="uppercase">Св. Франциски римлянки, монахині</span>
+        </span>
+      </StringTitle>
+      <LiturgicalSeason>Звичайний період</LiturgicalSeason>
+      <LiturgicalCelebrationLevel>2</LiturgicalCelebrationLevel>
+      <LiturgicalCelebrationType>спомин</LiturgicalCelebrationType>
+    </Celebration>
+  </CalendarDay>
+  <CalendarDay>
+    <DateISO>2025-03-10</DateISO>
+    <DateDay>10</DateDay>
+    <DateMonth>3</DateMonth>
+    <DateYear>2025</DateYear>
+    <DayOfYear>69</DayOfYear>
+    <DayOfWeek Id="0">понеділок</DayOfWeek>
+  </CalendarDay>
+  <CalendarDay>
+    <DateISO>2025-03-11</DateISO>
+    <DateDay>11</DateDay>
+    <DateMonth>3</DateMonth>
+    <DateYear>2025</DateYear>
+    <DayOfYear>70</DayOfYear>
+    <DayOfWeek Id="1">вівторок</DayOfWeek>
+  </CalendarDay>
+  <CalendarDay>
+    <DateISO>2025-03-12</DateISO>
+    <DateDay>12</DateDay>
+    <DateMonth>3</DateMonth>
+    <DateYear>2025</DateYear>
+    <DayOfYear>71</DayOfYear>
+    <DayOfWeek Id="2">середа</DayOfWeek>
+  </CalendarDay>
+  <CalendarDay>
+    <DateISO>2025-03-13</DateISO>
+    <DateDay>13</DateDay>
+    <DateMonth>3</DateMonth>
+    <DateYear>2025</DateYear>
+    <DayOfYear>72</DayOfYear>
+    <DayOfWeek Id="3">четвер</DayOfWeek>
+  </CalendarDay>
+  <CalendarDay>
+    <DateISO>2025-03-14</DateISO>
+    <DateDay>14</DateDay>
+    <DateMonth>3</DateMonth>
+    <DateYear>2025</DateYear>
+    <DayOfYear>73</DayOfYear>
+    <DayOfWeek Id="4">п’ятниця</DayOfWeek>
+  </CalendarDay>
+  <CalendarDay>
+    <DateISO>2025-03-15</DateISO>
+    <DateDay>15</DateDay>
+    <DateMonth>3</DateMonth>
+    <DateYear>2025</DateYear>
+    <DayOfYear>74</DayOfYear>
+    <DayOfWeek Id="5">субота</DayOfWeek>
+  </CalendarDay>
+  <CalendarDay>
+    <DateISO>2025-03-16</DateISO>
+    <DateDay>16</DateDay>
+    <DateMonth>3</DateMonth>
+    <DateYear>2025</DateYear>
+    <DayOfYear>75</DayOfYear>
+    <DayOfWeek Id="6">неділя</DayOfWeek>
+  </CalendarDay>
+  <CalendarDay>
+    <DateISO>2025-03-17</DateISO>
+    <DateDay>17</DateDay>
+    <DateMonth>3</DateMonth>
+    <DateYear>2025</DateYear>
+    <DayOfYear>76</DayOfYear>
+    <DayOfWeek Id="0">понеділок</DayOfWeek>
+    <Celebration>
+      <Id>0</Id>
+      <StringTitle>
+        <span class="bold">
+          <span class="uppercase">Св. Патрика, єпископа</span>
+        </span>
+      </StringTitle>
+      <LiturgicalSeason>Звичайний період</LiturgicalSeason>
+      <LiturgicalCelebrationLevel>2</LiturgicalCelebrationLevel>
+      <LiturgicalCelebrationType>спомин</LiturgicalCelebrationType>
+    </Celebration>
+  </CalendarDay>
+  <CalendarDay>
+    <DateISO>2025-03-18</DateISO>
+    <DateDay>18</DateDay>
+    <DateMonth>3</DateMonth>
+    <DateYear>2025</DateYear>
+    <DayOfYear>77</DayOfYear>
+    <DayOfWeek Id="1">вівторок</DayOfWeek>
+    <Celebration>
+      <Id>0</Id>
+      <StringTitle>
+        <span class="bold">
+          <span class="uppercase">Св. Кирила Єрусалимського, єпископа і Вчителя Церкви</span>
+        </span>
+      </StringTitle>
+      <LiturgicalSeason>Звичайний період</LiturgicalSeason>
+      <LiturgicalCelebrationLevel>2</LiturgicalCelebrationLevel>
+      <LiturgicalCelebrationType>спомин</LiturgicalCelebrationType>
+    </Celebration>
+  </CalendarDay>
+  <CalendarDay>
+    <DateISO>2025-03-19</DateISO>
+    <DateDay>19</DateDay>
+    <DateMonth>3</DateMonth>
+    <DateYear>2025</DateYear>
+    <DayOfYear>78</DayOfYear>
+    <DayOfWeek Id="2">середа</DayOfWeek>
+    <Celebration>
+      <Id>0</Id>
+      <StringTitle>
+        <span class="bold">
+          <span class="uppercase">СВ. ЙОСИФА, ОБРУЧНИКА ПРЕСВЯТОЇ ДІВИ МАРІЇ</span>
+        </span>
+      </StringTitle>
+      <LiturgicalSeason>Звичайний період</LiturgicalSeason>
+      <LiturgicalCelebrationLevel>1</LiturgicalCelebrationLevel>
+      <LiturgicalCelebrationType>урочистість</LiturgicalCelebrationType>
+    </Celebration>
+  </CalendarDay>
+  <CalendarDay>
+    <DateISO>2025-03-20</DateISO>
+    <DateDay>20</DateDay>
+    <DateMonth>3</DateMonth>
+    <DateYear>2025</DateYear>
+    <DayOfYear>79</DayOfYear>
+    <DayOfWeek Id="3">четвер</DayOfWeek>
+  </CalendarDay>
+  <CalendarDay>
+    <DateISO>2025-03-21</DateISO>
+    <DateDay>21</DateDay>
+    <DateMonth>3</DateMonth>
+    <DateYear>2025</DateYear>
+    <DayOfYear>80</DayOfYear>
+    <DayOfWeek Id="4">п’ятниця</DayOfWeek>
+  </CalendarDay>
+  <CalendarDay>
+    <DateISO>2025-03-22</DateISO>
+    <DateDay>22</DateDay>
+    <DateMonth>3</DateMonth>
+    <DateYear>2025</DateYear>
+    <DayOfYear>81</DayOfYear>
+    <DayOfWeek Id="5">субота</DayOfWeek>
+  </CalendarDay>
+  <CalendarDay>
+    <DateISO>2025-03-23</DateISO>
+    <DateDay>23</DateDay>
+    <DateMonth>3</DateMonth>
+    <DateYear>2025</DateYear>
+    <DayOfYear>82</DayOfYear>
+    <DayOfWeek Id="6">неділя</DayOfWeek>
+    <Celebration>
+      <Id>0</Id>
+      <StringTitle>
+        <span class="bold">
+          <span class="uppercase">Св. Турибія Монгровехського, єпископа</span>
+        </span>
+      </StringTitle>
+      <LiturgicalSeason>Звичайний період</LiturgicalSeason>
+      <LiturgicalCelebrationLevel>2</LiturgicalCelebrationLevel>
+      <LiturgicalCelebrationType>спомин</LiturgicalCelebrationType>
+    </Celebration>
+  </CalendarDay>
+  <CalendarDay>
+    <DateISO>2025-03-24</DateISO>
+    <DateDay>24</DateDay>
+    <DateMonth>3</DateMonth>
+    <DateYear>2025</DateYear>
+    <DayOfYear>83</DayOfYear>
+    <DayOfWeek Id="0">понеділок</DayOfWeek>
+  </CalendarDay>
+  <CalendarDay>
+    <DateISO>2025-03-25</DateISO>
+    <DateDay>25</DateDay>
+    <DateMonth>3</DateMonth>
+    <DateYear>2025</DateYear>
+    <DayOfYear>84</DayOfYear>
+    <DayOfWeek Id="1">вівторок</DayOfWeek>
+    <Celebration>
+      <Id>0</Id>
+      <StringTitle>
+        <span class="bold">
+          <span class="uppercase">БЛАГОВІЩЕННЯ ГОСПОДНЬОГО</span>
+        </span>
+      </StringTitle>
+      <LiturgicalSeason>Великодній період</LiturgicalSeason>
+      <LiturgicalCelebrationLevel>1</LiturgicalCelebrationLevel>
+      <LiturgicalCelebrationType>урочистість</LiturgicalCelebrationType>
+    </Celebration>
+  </CalendarDay>
+  <CalendarDay>
+    <DateISO>2025-03-26</DateISO>
+    <DateDay>26</DateDay>
+    <DateMonth>3</DateMonth>
+    <DateYear>2025</DateYear>
+    <DayOfYear>85</DayOfYear>
+    <DayOfWeek Id="2">середа</DayOfWeek>
+  </CalendarDay>
+  <CalendarDay>
+    <DateISO>2025-03-27</DateISO>
+    <DateDay>27</DateDay>
+    <DateMonth>3</DateMonth>
+    <DateYear>2025</DateYear>
+    <DayOfYear>86</DayOfYear>
+    <DayOfWeek Id="3">четвер</DayOfWeek>
+  </CalendarDay>
+  <CalendarDay>
+    <DateISO>2025-03-28</DateISO>
+    <DateDay>28</DateDay>
+    <DateMonth>3</DateMonth>
+    <DateYear>2025</DateYear>
+    <DayOfYear>87</DayOfYear>
+    <DayOfWeek Id="4">п’ятниця</DayOfWeek>
+  </CalendarDay>
+  <CalendarDay>
+    <DateISO>2025-03-29</DateISO>
+    <DateDay>29</DateDay>
+    <DateMonth>3</DateMonth>
+    <DateYear>2025</DateYear>
+    <DayOfYear>88</DayOfYear>
+    <DayOfWeek Id="5">субота</DayOfWeek>
+  </CalendarDay>
+  <CalendarDay>
+    <DateISO>2025-03-30</DateISO>
+    <DateDay>30</DateDay>
+    <DateMonth>3</DateMonth>
+    <DateYear>2025</DateYear>
+    <DayOfYear>89</DayOfYear>
+    <DayOfWeek Id="6">неділя</DayOfWeek>
+  </CalendarDay>
+  <CalendarDay>
+    <DateISO>2025-03-31</DateISO>
+    <DateDay>31</DateDay>
+    <DateMonth>3</DateMonth>
+    <DateYear>2025</DateYear>
+    <DayOfYear>90</DayOfYear>
+    <DayOfWeek Id="0">понеділок</DayOfWeek>
+  </CalendarDay>
+</LHData>

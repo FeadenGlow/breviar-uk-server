@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LHData>
+  <CalendarDay>
+    <DateISO>2025-04-05</DateISO>
+    <DateDay>5</DateDay>
+    <DateMonth>4</DateMonth>
+    <DateYear>2025</DateYear>
+    <DayOfYear>95</DayOfYear>
+    <DayOfWeek Id="5">субота</DayOfWeek>
+    <Celebration>
+      <Id>0</Id>
+      <StringTitle>
+        <span class="bold">
+          <span class="uppercase">Св. Вікентія Феррера, пресвітера</span>
+        </span>
+      </StringTitle>
+      <LiturgicalSeason>Великодній період</LiturgicalSeason>
+      <LiturgicalCelebrationLevel>2</LiturgicalCelebrationLevel>
+      <LiturgicalCelebrationType>спомин</LiturgicalCelebrationType>
+    </Celebration>
+  </CalendarDay>
+</LHData>

@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LHData>
+  <CalendarDay>
+    <DateISO>2025-01-07</DateISO>
+    <DateDay>7</DateDay>
+    <DateMonth>1</DateMonth>
+    <DateYear>2025</DateYear>
+    <DayOfYear>7</DayOfYear>
+    <DayOfWeek Id="1">вівторок</DayOfWeek>
+    <Celebration>
+      <Id>0</Id>
+      <StringTitle>
+        <span class="bold">
+          <span class="uppercase">ХРЕЩЕННЯ ГОСПОДНЬОГО</span>
+        </span>
+      </StringTitle>
+      <LiturgicalSeason>Різдвяний період</LiturgicalSeason>
+      <LiturgicalCelebrationLevel>1</LiturgicalCelebrationLevel>
+      <LiturgicalCelebrationType>урочистість</LiturgicalCelebrationType>
+    </Celebration>
+  </CalendarDay>
+</LHData>

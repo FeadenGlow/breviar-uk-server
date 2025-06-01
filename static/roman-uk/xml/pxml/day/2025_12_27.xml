@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LHData>
+  <CalendarDay>
+    <DateISO>2025-12-27</DateISO>
+    <DateDay>27</DateDay>
+    <DateMonth>12</DateMonth>
+    <DateYear>2025</DateYear>
+    <DayOfYear>361</DayOfYear>
+    <DayOfWeek Id="5">субота</DayOfWeek>
+    <Celebration>
+      <Id>0</Id>
+      <StringTitle>
+        <span class="bold">
+          <span class="uppercase">СВ. ЙОАНА, АПОСТОЛА І ЄВАНГЕЛІСТА</span>
+        </span>
+      </StringTitle>
+      <LiturgicalSeason>Різдвяний період</LiturgicalSeason>
+      <LiturgicalCelebrationLevel>1</LiturgicalCelebrationLevel>
+      <LiturgicalCelebrationType>урочистість</LiturgicalCelebrationType>
+    </Celebration>
+  </CalendarDay>
+</LHData>

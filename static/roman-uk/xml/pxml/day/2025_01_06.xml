@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LHData>
+  <CalendarDay>
+    <DateISO>2025-01-06</DateISO>
+    <DateDay>6</DateDay>
+    <DateMonth>1</DateMonth>
+    <DateYear>2025</DateYear>
+    <DayOfYear>6</DayOfYear>
+    <DayOfWeek Id="0">понеділок</DayOfWeek>
+    <Celebration>
+      <Id>0</Id>
+      <StringTitle>
+        <span class="bold">
+          <span class="uppercase">БОГОЯВЛЕННЯ ГОСПОДНЬОГО</span>
+        </span>
+      </StringTitle>
+      <LiturgicalSeason>Різдвяний період</LiturgicalSeason>
+      <LiturgicalCelebrationLevel>1</LiturgicalCelebrationLevel>
+      <LiturgicalCelebrationType>урочистість</LiturgicalCelebrationType>
+    </Celebration>
+  </CalendarDay>
+</LHData>

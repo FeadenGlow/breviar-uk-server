@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LHData>
+  <CalendarDay>
+    <DateISO>2025-07-25</DateISO>
+    <DateDay>25</DateDay>
+    <DateMonth>7</DateMonth>
+    <DateYear>2025</DateYear>
+    <DayOfYear>206</DayOfYear>
+    <DayOfWeek Id="4">п’ятниця</DayOfWeek>
+    <Celebration>
+      <Id>0</Id>
+      <StringTitle>
+        <span class="bold">
+          <span class="uppercase">СВ. ЯКОВА, АПОСТОЛА</span>
+        </span>
+      </StringTitle>
+      <LiturgicalSeason>Звичайний період</LiturgicalSeason>
+      <LiturgicalCelebrationLevel>1</LiturgicalCelebrationLevel>
+      <LiturgicalCelebrationType>урочистість</LiturgicalCelebrationType>
+    </Celebration>
+  </CalendarDay>
+</LHData>

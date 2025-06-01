@@ -1,0 +1,463 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LHData>
+  <CalendarDay>
+    <DateISO>2025-11-01</DateISO>
+    <DateDay>1</DateDay>
+    <DateMonth>11</DateMonth>
+    <DateYear>2025</DateYear>
+    <DayOfYear>305</DayOfYear>
+    <DayOfWeek Id="5">субота</DayOfWeek>
+    <Celebration>
+      <Id>0</Id>
+      <StringTitle>
+        <span class="bold">
+          <span class="uppercase">УСІХ СВЯТИХ</span>
+        </span>
+      </StringTitle>
+      <LiturgicalSeason>Звичайний період</LiturgicalSeason>
+      <LiturgicalCelebrationLevel>1</LiturgicalCelebrationLevel>
+      <LiturgicalCelebrationType>урочистість</LiturgicalCelebrationType>
+    </Celebration>
+  </CalendarDay>
+  <CalendarDay>
+    <DateISO>2025-11-02</DateISO>
+    <DateDay>2</DateDay>
+    <DateMonth>11</DateMonth>
+    <DateYear>2025</DateYear>
+    <DayOfYear>306</DayOfYear>
+    <DayOfWeek Id="6">неділя</DayOfWeek>
+    <Celebration>
+      <Id>0</Id>
+      <StringTitle>
+        <span class="bold">
+          <span class="uppercase">СПОМИН УСІХ ПОМЕРЛИХ ВІРНИХ</span>
+        </span>
+      </StringTitle>
+      <LiturgicalSeason>Звичайний період</LiturgicalSeason>
+      <LiturgicalCelebrationLevel>3</LiturgicalCelebrationLevel>
+      <LiturgicalCelebrationType>спомин</LiturgicalCelebrationType>
+    </Celebration>
+  </CalendarDay>
+  <CalendarDay>
+    <DateISO>2025-11-03</DateISO>
+    <DateDay>3</DateDay>
+    <DateMonth>11</DateMonth>
+    <DateYear>2025</DateYear>
+    <DayOfYear>307</DayOfYear>
+    <DayOfWeek Id="0">понеділок</DayOfWeek>
+    <Celebration>
+      <Id>0</Id>
+      <StringTitle>
+        <span class="bold">
+          <span class="uppercase">Св. Мартина де Поррес, монаха</span>
+        </span>
+      </StringTitle>
+      <LiturgicalSeason>Звичайний період</LiturgicalSeason>
+      <LiturgicalCelebrationLevel>4</LiturgicalCelebrationLevel>
+      <LiturgicalCelebrationType>спомин</LiturgicalCelebrationType>
+    </Celebration>
+  </CalendarDay>
+  <CalendarDay>
+    <DateISO>2025-11-04</DateISO>
+    <DateDay>4</DateDay>
+    <DateMonth>11</DateMonth>
+    <DateYear>2025</DateYear>
+    <DayOfYear>308</DayOfYear>
+    <DayOfWeek Id="1">вівторок</DayOfWeek>
+    <Celebration>
+      <Id>0</Id>
+      <StringTitle>
+        <span class="bold">
+          <span class="uppercase">Св. Карла Борромео, єпископа</span>
+        </span>
+      </StringTitle>
+      <LiturgicalSeason>Звичайний період</LiturgicalSeason>
+      <LiturgicalCelebrationLevel>3</LiturgicalCelebrationLevel>
+      <LiturgicalCelebrationType>спомин</LiturgicalCelebrationType>
+    </Celebration>
+  </CalendarDay>
+  <CalendarDay>
+    <DateISO>2025-11-05</DateISO>
+    <DateDay>5</DateDay>
+    <DateMonth>11</DateMonth>
+    <DateYear>2025</DateYear>
+    <DayOfYear>309</DayOfYear>
+    <DayOfWeek Id="2">середа</DayOfWeek>
+  </CalendarDay>
+  <CalendarDay>
+    <DateISO>2025-11-06</DateISO>
+    <DateDay>6</DateDay>
+    <DateMonth>11</DateMonth>
+    <DateYear>2025</DateYear>
+    <DayOfYear>310</DayOfYear>
+    <DayOfWeek Id="3">четвер</DayOfWeek>
+  </CalendarDay>
+  <CalendarDay>
+    <DateISO>2025-11-07</DateISO>
+    <DateDay>7</DateDay>
+    <DateMonth>11</DateMonth>
+    <DateYear>2025</DateYear>
+    <DayOfYear>311</DayOfYear>
+    <DayOfWeek Id="4">п’ятниця</DayOfWeek>
+  </CalendarDay>
+  <CalendarDay>
+    <DateISO>2025-11-08</DateISO>
+    <DateDay>8</DateDay>
+    <DateMonth>11</DateMonth>
+    <DateYear>2025</DateYear>
+    <DayOfYear>312</DayOfYear>
+    <DayOfWeek Id="5">субота</DayOfWeek>
+  </CalendarDay>
+  <CalendarDay>
+    <DateISO>2025-11-09</DateISO>
+    <DateDay>9</DateDay>
+    <DateMonth>11</DateMonth>
+    <DateYear>2025</DateYear>
+    <DayOfYear>313</DayOfYear>
+    <DayOfWeek Id="6">неділя</DayOfWeek>
+    <Celebration>
+      <Id>0</Id>
+      <StringTitle>
+        <span class="bold">
+          <span class="uppercase">РІЧНИЦЯ ОСВЯЧЕННЯ ЛАТЕРАНСЬКОЇ БАЗИЛІКИ</span>
+        </span>
+      </StringTitle>
+      <LiturgicalSeason>Звичайний період</LiturgicalSeason>
+      <LiturgicalCelebrationLevel>1</LiturgicalCelebrationLevel>
+      <LiturgicalCelebrationType>свято</LiturgicalCelebrationType>
+    </Celebration>
+  </CalendarDay>
+  <CalendarDay>
+    <DateISO>2025-11-10</DateISO>
+    <DateDay>10</DateDay>
+    <DateMonth>11</DateMonth>
+    <DateYear>2025</DateYear>
+    <DayOfYear>314</DayOfYear>
+    <DayOfWeek Id="0">понеділок</DayOfWeek>
+    <Celebration>
+      <Id>0</Id>
+      <StringTitle>
+        <span class="bold">
+          <span class="uppercase">Св. Льва Великого, Папи і Вчителя Церкви</span>
+        </span>
+      </StringTitle>
+      <LiturgicalSeason>Звичайний період</LiturgicalSeason>
+      <LiturgicalCelebrationLevel>3</LiturgicalCelebrationLevel>
+      <LiturgicalCelebrationType>спомин</LiturgicalCelebrationType>
+    </Celebration>
+  </CalendarDay>
+  <CalendarDay>
+    <DateISO>2025-11-11</DateISO>
+    <DateDay>11</DateDay>
+    <DateMonth>11</DateMonth>
+    <DateYear>2025</DateYear>
+    <DayOfYear>315</DayOfYear>
+    <DayOfWeek Id="1">вівторок</DayOfWeek>
+    <Celebration>
+      <Id>0</Id>
+      <StringTitle>
+        <span class="bold">
+          <span class="uppercase">Св. Мартина Турського, єпископа</span>
+        </span>
+      </StringTitle>
+      <LiturgicalSeason>Звичайний період</LiturgicalSeason>
+      <LiturgicalCelebrationLevel>3</LiturgicalCelebrationLevel>
+      <LiturgicalCelebrationType>спомин</LiturgicalCelebrationType>
+    </Celebration>
+  </CalendarDay>
+  <CalendarDay>
+    <DateISO>2025-11-12</DateISO>
+    <DateDay>12</DateDay>
+    <DateMonth>11</DateMonth>
+    <DateYear>2025</DateYear>
+    <DayOfYear>316</DayOfYear>
+    <DayOfWeek Id="2">середа</DayOfWeek>
+    <Celebration>
+      <Id>0</Id>
+      <StringTitle>
+        <span class="bold">
+          <span class="uppercase">Св. Йосафата, єпископа і мученика</span>
+        </span>
+      </StringTitle>
+      <LiturgicalSeason>Звичайний період</LiturgicalSeason>
+      <LiturgicalCelebrationLevel>3</LiturgicalCelebrationLevel>
+      <LiturgicalCelebrationType>спомин</LiturgicalCelebrationType>
+    </Celebration>
+  </CalendarDay>
+  <CalendarDay>
+    <DateISO>2025-11-13</DateISO>
+    <DateDay>13</DateDay>
+    <DateMonth>11</DateMonth>
+    <DateYear>2025</DateYear>
+    <DayOfYear>317</DayOfYear>
+    <DayOfWeek Id="3">четвер</DayOfWeek>
+  </CalendarDay>
+  <CalendarDay>
+    <DateISO>2025-11-14</DateISO>
+    <DateDay>14</DateDay>
+    <DateMonth>11</DateMonth>
+    <DateYear>2025</DateYear>
+    <DayOfYear>318</DayOfYear>
+    <DayOfWeek Id="4">п’ятниця</DayOfWeek>
+  </CalendarDay>
+  <CalendarDay>
+    <DateISO>2025-11-15</DateISO>
+    <DateDay>15</DateDay>
+    <DateMonth>11</DateMonth>
+    <DateYear>2025</DateYear>
+    <DayOfYear>319</DayOfYear>
+    <DayOfWeek Id="5">субота</DayOfWeek>
+    <Celebration>
+      <Id>0</Id>
+      <StringTitle>
+        <span class="bold">
+          <span class="uppercase">Св. Альберта Великого, єпископа і Вчителя Церкви</span>
+        </span>
+      </StringTitle>
+      <LiturgicalSeason>Звичайний період</LiturgicalSeason>
+      <LiturgicalCelebrationLevel>4</LiturgicalCelebrationLevel>
+      <LiturgicalCelebrationType>спомин</LiturgicalCelebrationType>
+    </Celebration>
+    <Celebration>
+      <Id>1</Id>
+      <StringTitle>
+        <span class="bold">
+          <span class="uppercase">Св. Маргарити Шотландської</span>
+        </span>
+      </StringTitle>
+      <LiturgicalSeason>Звичайний період</LiturgicalSeason>
+      <LiturgicalCelebrationLevel>4</LiturgicalCelebrationLevel>
+      <LiturgicalCelebrationType>спомин</LiturgicalCelebrationType>
+    </Celebration>
+    <Celebration>
+      <Id>2</Id>
+      <StringTitle>
+        <span class="bold">
+          <span class="uppercase">Св. Гертруди, діви</span>
+        </span>
+      </StringTitle>
+      <LiturgicalSeason>Звичайний період</LiturgicalSeason>
+      <LiturgicalCelebrationLevel>4</LiturgicalCelebrationLevel>
+      <LiturgicalCelebrationType>спомин</LiturgicalCelebrationType>
+    </Celebration>
+  </CalendarDay>
+  <CalendarDay>
+    <DateISO>2025-11-16</DateISO>
+    <DateDay>16</DateDay>
+    <DateMonth>11</DateMonth>
+    <DateYear>2025</DateYear>
+    <DayOfYear>320</DayOfYear>
+    <DayOfWeek Id="6">неділя</DayOfWeek>
+  </CalendarDay>
+  <CalendarDay>
+    <DateISO>2025-11-17</DateISO>
+    <DateDay>17</DateDay>
+    <DateMonth>11</DateMonth>
+    <DateYear>2025</DateYear>
+    <DayOfYear>321</DayOfYear>
+    <DayOfWeek Id="0">понеділок</DayOfWeek>
+    <Celebration>
+      <Id>0</Id>
+      <StringTitle>
+        <span class="bold">
+          <span class="uppercase">Св. Єлизавети Угорської, монахині</span>
+        </span>
+      </StringTitle>
+      <LiturgicalSeason>Звичайний період</LiturgicalSeason>
+      <LiturgicalCelebrationLevel>3</LiturgicalCelebrationLevel>
+      <LiturgicalCelebrationType>спомин</LiturgicalCelebrationType>
+    </Celebration>
+  </CalendarDay>
+  <CalendarDay>
+    <DateISO>2025-11-18</DateISO>
+    <DateDay>18</DateDay>
+    <DateMonth>11</DateMonth>
+    <DateYear>2025</DateYear>
+    <DayOfYear>322</DayOfYear>
+    <DayOfWeek Id="1">вівторок</DayOfWeek>
+    <Celebration>
+      <Id>0</Id>
+      <StringTitle>
+        <span class="bold">
+          <span class="uppercase">РІЧНИЦЯ ОСВЯЧЕННЯ РИМСЬКИХ БАЗИЛІК СВВ. АПОСТОЛІВ ПЕТРА І ПАВЛА</span>
+        </span>
+      </StringTitle>
+      <LiturgicalSeason>Звичайний період</LiturgicalSeason>
+      <LiturgicalCelebrationLevel>1</LiturgicalCelebrationLevel>
+      <LiturgicalCelebrationType>свято</LiturgicalCelebrationType>
+    </Celebration>
+  </CalendarDay>
+  <CalendarDay>
+    <DateISO>2025-11-19</DateISO>
+    <DateDay>19</DateDay>
+    <DateMonth>11</DateMonth>
+    <DateYear>2025</DateYear>
+    <DayOfYear>323</DayOfYear>
+    <DayOfWeek Id="2">середа</DayOfWeek>
+  </CalendarDay>
+  <CalendarDay>
+    <DateISO>2025-11-20</DateISO>
+    <DateDay>20</DateDay>
+    <DateMonth>11</DateMonth>
+    <DateYear>2025</DateYear>
+    <DayOfYear>324</DayOfYear>
+    <DayOfWeek Id="3">четвер</DayOfWeek>
+  </CalendarDay>
+  <CalendarDay>
+    <DateISO>2025-11-21</DateISO>
+    <DateDay>21</DateDay>
+    <DateMonth>11</DateMonth>
+    <DateYear>2025</DateYear>
+    <DayOfYear>325</DayOfYear>
+    <DayOfWeek Id="4">п’ятниця</DayOfWeek>
+    <Celebration>
+      <Id>0</Id>
+      <StringTitle>
+        <span class="bold">
+          <span class="uppercase">Введення у храм Пресвятої Богородиці</span>
+        </span>
+      </StringTitle>
+      <LiturgicalSeason>Звичайний період</LiturgicalSeason>
+      <LiturgicalCelebrationLevel>3</LiturgicalCelebrationLevel>
+      <LiturgicalCelebrationType>спомин</LiturgicalCelebrationType>
+    </Celebration>
+  </CalendarDay>
+  <CalendarDay>
+    <DateISO>2025-11-22</DateISO>
+    <DateDay>22</DateDay>
+    <DateMonth>11</DateMonth>
+    <DateYear>2025</DateYear>
+    <DayOfYear>326</DayOfYear>
+    <DayOfWeek Id="5">субота</DayOfWeek>
+    <Celebration>
+      <Id>0</Id>
+      <StringTitle>
+        <span class="bold">
+          <span class="uppercase">Св. Цецилії, діви і мучениці</span>
+        </span>
+      </StringTitle>
+      <LiturgicalSeason>Звичайний період</LiturgicalSeason>
+      <LiturgicalCelebrationLevel>3</LiturgicalCelebrationLevel>
+      <LiturgicalCelebrationType>спомин</LiturgicalCelebrationType>
+    </Celebration>
+  </CalendarDay>
+  <CalendarDay>
+    <DateISO>2025-11-23</DateISO>
+    <DateDay>23</DateDay>
+    <DateMonth>11</DateMonth>
+    <DateYear>2025</DateYear>
+    <DayOfYear>327</DayOfYear>
+    <DayOfWeek Id="6">неділя</DayOfWeek>
+    <Celebration>
+      <Id>0</Id>
+      <StringTitle>
+        <span class="bold">
+          <span class="uppercase">Св. Климентія І, Папи і мученика</span>
+        </span>
+      </StringTitle>
+      <LiturgicalSeason>Звичайний період</LiturgicalSeason>
+      <LiturgicalCelebrationLevel>4</LiturgicalCelebrationLevel>
+      <LiturgicalCelebrationType>спомин</LiturgicalCelebrationType>
+    </Celebration>
+    <Celebration>
+      <Id>1</Id>
+      <StringTitle>
+        <span class="bold">
+          <span class="uppercase">Св. Колумбана, абата</span>
+        </span>
+      </StringTitle>
+      <LiturgicalSeason>Звичайний період</LiturgicalSeason>
+      <LiturgicalCelebrationLevel>4</LiturgicalCelebrationLevel>
+      <LiturgicalCelebrationType>спомин</LiturgicalCelebrationType>
+    </Celebration>
+  </CalendarDay>
+  <CalendarDay>
+    <DateISO>2025-11-24</DateISO>
+    <DateDay>24</DateDay>
+    <DateMonth>11</DateMonth>
+    <DateYear>2025</DateYear>
+    <DayOfYear>328</DayOfYear>
+    <DayOfWeek Id="0">понеділок</DayOfWeek>
+    <Celebration>
+      <Id>0</Id>
+      <StringTitle>
+        <span class="bold">
+          <span class="uppercase">Свв. Андрія Дунг Лака, пресвітера, і сподвижників, мучеників</span>
+        </span>
+      </StringTitle>
+      <LiturgicalSeason>Звичайний період</LiturgicalSeason>
+      <LiturgicalCelebrationLevel>3</LiturgicalCelebrationLevel>
+      <LiturgicalCelebrationType>спомин</LiturgicalCelebrationType>
+    </Celebration>
+  </CalendarDay>
+  <CalendarDay>
+    <DateISO>2025-11-25</DateISO>
+    <DateDay>25</DateDay>
+    <DateMonth>11</DateMonth>
+    <DateYear>2025</DateYear>
+    <DayOfYear>329</DayOfYear>
+    <DayOfWeek Id="1">вівторок</DayOfWeek>
+    <Celebration>
+      <Id>0</Id>
+      <StringTitle>
+        <span class="bold">
+          <span class="uppercase">Св. Катерини Олександрійської, діви і мучениці</span>
+        </span>
+      </StringTitle>
+      <LiturgicalSeason>Звичайний період</LiturgicalSeason>
+      <LiturgicalCelebrationLevel>4</LiturgicalCelebrationLevel>
+      <LiturgicalCelebrationType>спомин</LiturgicalCelebrationType>
+    </Celebration>
+  </CalendarDay>
+  <CalendarDay>
+    <DateISO>2025-11-26</DateISO>
+    <DateDay>26</DateDay>
+    <DateMonth>11</DateMonth>
+    <DateYear>2025</DateYear>
+    <DayOfYear>330</DayOfYear>
+    <DayOfWeek Id="2">середа</DayOfWeek>
+  </CalendarDay>
+  <CalendarDay>
+    <DateISO>2025-11-27</DateISO>
+    <DateDay>27</DateDay>
+    <DateMonth>11</DateMonth>
+    <DateYear>2025</DateYear>
+    <DayOfYear>331</DayOfYear>
+    <DayOfWeek Id="3">четвер</DayOfWeek>
+  </CalendarDay>
+  <CalendarDay>
+    <DateISO>2025-11-28</DateISO>
+    <DateDay>28</DateDay>
+    <DateMonth>11</DateMonth>
+    <DateYear>2025</DateYear>
+    <DayOfYear>332</DayOfYear>
+    <DayOfWeek Id="4">п’ятниця</DayOfWeek>
+  </CalendarDay>
+  <CalendarDay>
+    <DateISO>2025-11-29</DateISO>
+    <DateDay>29</DateDay>
+    <DateMonth>11</DateMonth>
+    <DateYear>2025</DateYear>
+    <DayOfYear>333</DayOfYear>
+    <DayOfWeek Id="5">субота</DayOfWeek>
+  </CalendarDay>
+  <CalendarDay>
+    <DateISO>2025-11-30</DateISO>
+    <DateDay>30</DateDay>
+    <DateMonth>11</DateMonth>
+    <DateYear>2025</DateYear>
+    <DayOfYear>334</DayOfYear>
+    <DayOfWeek Id="6">неділя</DayOfWeek>
+    <Celebration>
+      <Id>0</Id>
+      <StringTitle>
+        <span class="bold">
+          <span class="uppercase">СВ. АНДРІЯ, АПОСТОЛА</span>
+        </span>
+      </StringTitle>
+      <LiturgicalSeason>Звичайний період</LiturgicalSeason>
+      <LiturgicalCelebrationLevel>1</LiturgicalCelebrationLevel>
+      <LiturgicalCelebrationType>урочистість</LiturgicalCelebrationType>
+    </Celebration>
+  </CalendarDay>
+</LHData>

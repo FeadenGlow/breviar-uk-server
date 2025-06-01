@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LHData>
+  <CalendarDay>
+    <DateISO>2025-11-18</DateISO>
+    <DateDay>18</DateDay>
+    <DateMonth>11</DateMonth>
+    <DateYear>2025</DateYear>
+    <DayOfYear>322</DayOfYear>
+    <DayOfWeek Id="1">вівторок</DayOfWeek>
+    <Celebration>
+      <Id>0</Id>
+      <StringTitle>
+        <span class="bold">
+          <span class="uppercase">РІЧНИЦЯ ОСВЯЧЕННЯ РИМСЬКИХ БАЗИЛІК СВВ. АПОСТОЛІВ ПЕТРА І ПАВЛА</span>
+        </span>
+      </StringTitle>
+      <LiturgicalSeason>Звичайний період</LiturgicalSeason>
+      <LiturgicalCelebrationLevel>1</LiturgicalCelebrationLevel>
+      <LiturgicalCelebrationType>свято</LiturgicalCelebrationType>
+    </Celebration>
+  </CalendarDay>
+</LHData>

@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LHData>
+  <CalendarDay>
+    <DateISO>2025-04-29</DateISO>
+    <DateDay>29</DateDay>
+    <DateMonth>4</DateMonth>
+    <DateYear>2025</DateYear>
+    <DayOfYear>119</DayOfYear>
+    <DayOfWeek Id="1">вівторок</DayOfWeek>
+    <Celebration>
+      <Id>0</Id>
+      <StringTitle>
+        <span class="bold">
+          <span class="uppercase">СВ. КАТЕРИНИ СІЄНСЬКОЇ, ДІВИ І ВЧИТЕЛЯ ЦЕРКВИ, ПОКРОВИТЕЛЬКИ ЄВРОПИ</span>
+        </span>
+      </StringTitle>
+      <LiturgicalSeason>Великодній період</LiturgicalSeason>
+      <LiturgicalCelebrationLevel>1</LiturgicalCelebrationLevel>
+      <LiturgicalCelebrationType>свято</LiturgicalCelebrationType>
+    </Celebration>
+  </CalendarDay>
+</LHData>

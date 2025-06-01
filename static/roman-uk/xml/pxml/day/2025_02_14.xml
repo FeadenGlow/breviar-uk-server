@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LHData>
+  <CalendarDay>
+    <DateISO>2025-02-14</DateISO>
+    <DateDay>14</DateDay>
+    <DateMonth>2</DateMonth>
+    <DateYear>2025</DateYear>
+    <DayOfYear>45</DayOfYear>
+    <DayOfWeek Id="4">п’ятниця</DayOfWeek>
+    <Celebration>
+      <Id>0</Id>
+      <StringTitle>
+        <span class="bold">
+          <span class="uppercase">СВВ. КИРИЛА, МОНАХА, І МЕФОДІЯ, ЄПИСКОПА, ПОКРОВИТЕЛІВ ЄВРОПИ</span>
+        </span>
+      </StringTitle>
+      <LiturgicalSeason>Звичайний період</LiturgicalSeason>
+      <LiturgicalCelebrationLevel>1</LiturgicalCelebrationLevel>
+      <LiturgicalCelebrationType>свято</LiturgicalCelebrationType>
+    </Celebration>
+  </CalendarDay>
+</LHData>

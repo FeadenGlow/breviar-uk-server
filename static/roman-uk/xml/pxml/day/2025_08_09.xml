@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LHData>
+  <CalendarDay>
+    <DateISO>2025-08-09</DateISO>
+    <DateDay>9</DateDay>
+    <DateMonth>8</DateMonth>
+    <DateYear>2025</DateYear>
+    <DayOfYear>221</DayOfYear>
+    <DayOfWeek Id="5">субота</DayOfWeek>
+    <Celebration>
+      <Id>0</Id>
+      <StringTitle>
+        <span class="bold">
+          <span class="uppercase">СВ. ТЕРЕЗИ БЕНЕДИКТИ ВІД ХРЕСТА (ЕДИТИ ШТАЙН), діви і мучениці, Покровительки Європи</span>
+        </span>
+      </StringTitle>
+      <LiturgicalSeason>Звичайний період</LiturgicalSeason>
+      <LiturgicalCelebrationLevel>1</LiturgicalCelebrationLevel>
+      <LiturgicalCelebrationType>урочистість</LiturgicalCelebrationType>
+    </Celebration>
+  </CalendarDay>
+</LHData>
