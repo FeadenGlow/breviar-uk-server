@@ -1878,7 +1878,7 @@ def format_cdata(text: str) -> ET.Element:
 def make_day_xml(date_obj: datetime.date, celebrations: list) -> ET.Element:
     """
     Створює кореневий елемент LHData з одним CalendarDay для given date.
-    celebrations = список словників із ключами title, season, level, type.
+    Якщо в celebrations немає жодного запису, підставляємо «Звичайний день».
     """
     # Створюємо кореневий контейнер
     root = ET.Element("LHData")
@@ -1900,24 +1900,33 @@ def make_day_xml(date_obj: datetime.date, celebrations: list) -> ET.Element:
     dow = ET.SubElement(cal, "DayOfWeek", Id=str(date_obj.weekday()))
     dow.text = weekday_ua
 
-    # Якщо є святкові дані
-    for idx, item in enumerate(celebrations or []):
-        # для кожного свята у цьому дні створюємо <Celebration>
+    # Якщо свята відсутні, підставляємо «Звичайний день»
+    if not celebrations:
+        celebrations = [{
+            "title": "Звичайний день",
+            "season": "Звичайний період",
+            "level": 5,             # наприклад, довільний рівень
+            "type": "звичайний"
+        }]
+
+    # Додаємо кожне святкування (або «Звичайний день») як <Celebration>
+    for idx, item in enumerate(celebrations):
         c = ET.SubElement(cal, "Celebration")
         ET.SubElement(c, "Id").text = str(idx)
-        # Назва (StringTitle)
+        # StringTitle
         st = ET.SubElement(c, "StringTitle")
         span_bold = ET.SubElement(st, "span", {"class": "bold"})
         span_upper = ET.SubElement(span_bold, "span", {"class": "uppercase"})
         span_upper.text = item["title"]
-        # Сезон (LiturgicalSeason)
+        # LiturgicalSeason
         ET.SubElement(c, "LiturgicalSeason").text = item["season"]
-        # Рівень (LiturgicalCelebrationLevel)
+        # LiturgicalCelebrationLevel
         ET.SubElement(c, "LiturgicalCelebrationLevel").text = str(item["level"])
-        # Тип (LiturgicalCelebrationType)
+        # LiturgicalCelebrationType
         ET.SubElement(c, "LiturgicalCelebrationType").text = item["type"]
 
     return root
+
 
 
 def make_month_xml(year: int, month: int, month_days: dict) -> ET.Element:

@@ -7,5 +7,16 @@
     <DateYear>2025</DateYear>
     <DayOfYear>285</DayOfYear>
     <DayOfWeek Id="6">неділя</DayOfWeek>
+    <Celebration>
+      <Id>0</Id>
+      <StringTitle>
+        <span class="bold">
+          <span class="uppercase">Звичайний день</span>
+        </span>
+      </StringTitle>
+      <LiturgicalSeason>Звичайний період</LiturgicalSeason>
+      <LiturgicalCelebrationLevel>5</LiturgicalCelebrationLevel>
+      <LiturgicalCelebrationType>звичайний</LiturgicalCelebrationType>
+    </Celebration>
   </CalendarDay>
 </LHData>
